@@ -29,7 +29,7 @@ except ImportError:  # pragma: no cover - Python 3.8 fallback only.
 
 
 SERVER_NAME = "imsg"
-SERVER_VERSION = "0.6.2"
+SERVER_VERSION = "0.6.3"
 ROOT = Path(__file__).resolve().parents[1]
 MESSAGES_DB = Path.home() / "Library" / "Messages" / "chat.db"
 ADDRESSBOOK_ROOT = Path.home() / "Library" / "Application Support" / "AddressBook"

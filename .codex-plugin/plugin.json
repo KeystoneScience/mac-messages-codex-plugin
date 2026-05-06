@@ -1,6 +1,6 @@
 {
   "name": "mac-messages-codex-plugin",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Local Messages.app access for Codex: list chats, read and search iMessage/SMS history, inspect sends, and approval-gated send or tapback reactions from this Mac.",
   "author": {
     "name": "KeystoneScience",
@@ -40,8 +40,7 @@
       "Check Mac Messages permissions and explain what is missing"
     ],
     "brandColor": "#34C759",
-    "icon": "./assets/app-icon.png",
-    "composerIcon": "./assets/app-icon.png",
+    "composerIcon": "./assets/app-icon.svg",
     "logo": "./assets/app-icon.png",
     "screenshots": [
       "docs/assets/mac-message-codex-plugin.png"
