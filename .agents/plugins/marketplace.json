@@ -1,11 +1,17 @@
 {
   "name": "mac-messages-codex-plugin",
   "interface": {
-    "displayName": "Mac Messages Codex Plugin"
+    "displayName": "Mac Messages Codex Plugin",
+    "icon": "./assets/app-icon.png",
+    "logo": "./assets/app-icon.png"
   },
   "plugins": [
     {
       "name": "mac-messages-codex-plugin",
+      "interface": {
+        "icon": "./assets/app-icon.png",
+        "logo": "./assets/app-icon.png"
+      },
       "source": {
         "source": "url",
         "url": "./"
