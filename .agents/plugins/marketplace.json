@@ -1,11 +1,11 @@
 {
-  "name": "imsg",
+  "name": "mac-messages-codex-plugin",
   "interface": {
-    "displayName": "Mac Message Codex Plugin"
+    "displayName": "Mac Messages Codex Plugin"
   },
   "plugins": [
     {
-      "name": "imsg",
+      "name": "mac-messages-codex-plugin",
       "source": {
         "source": "url",
         "url": "./"

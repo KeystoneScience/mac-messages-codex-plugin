@@ -1,6 +1,6 @@
-# Mac Message Codex Plugin
+# Mac Messages Codex Plugin
 
-![Mac Message Codex Plugin](docs/assets/mac-message-codex-plugin.png)
+![Mac Messages Codex Plugin](docs/assets/mac-message-codex-plugin.png)
 
 A Codex plugin for local Apple Messages on macOS. It lets Codex list chats,
 read and search iMessage/SMS history, resolve phone numbers through local
@@ -9,20 +9,20 @@ after explicit approval gates.
 
 ## Install In Codex
 
-From this fork:
+From GitHub:
 
 ```bash
-codex plugin marketplace add KeystoneScience/imsg --ref codex-plugin
+codex plugin marketplace add KeystoneScience/mac-messages-codex-plugin
 ```
 
 From a local checkout:
 
 ```bash
-codex plugin marketplace add /path/to/imsg
+codex plugin marketplace add /path/to/mac-messages-codex-plugin
 ```
 
-Then restart Codex, open the plugin picker, and install **imsg** from the new
-marketplace. Grant Full Disk Access to Codex so the plugin can read
+Then restart Codex, open the plugin picker, and install **Mac Messages Codex
+Plugin** from the new marketplace. Grant Full Disk Access to Codex so the plugin can read
 Messages.app history and local Contacts metadata.
 
 ## What Codex Gets
@@ -129,6 +129,6 @@ imsg report --direction sent --start 2026-05-05T00:00:00Z --end 2026-05-06T00:00
 
 ## Notes
 
-This fork is intentionally documented as a Codex plugin first. The bundled MCP
-server wraps the local `imsg` helper so Codex can use Messages.app without
-needing direct database writes or private send APIs.
+This standalone repo is intentionally documented as a Codex plugin first. The
+bundled MCP server wraps the local `imsg` helper so Codex can use Messages.app
+without needing direct database writes or private send APIs.

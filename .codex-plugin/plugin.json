@@ -1,13 +1,13 @@
 {
-  "name": "imsg",
+  "name": "mac-messages-codex-plugin",
   "version": "0.6.1",
   "description": "Local Messages.app access for Codex: list chats, read and search iMessage/SMS history, inspect sends, and approval-gated send or tapback reactions from this Mac.",
   "author": {
     "name": "KeystoneScience",
-    "url": "https://github.com/KeystoneScience/imsg"
+    "url": "https://github.com/KeystoneScience/mac-messages-codex-plugin"
   },
-  "homepage": "https://github.com/KeystoneScience/imsg/tree/codex-plugin",
-  "repository": "https://github.com/KeystoneScience/imsg",
+  "homepage": "https://github.com/KeystoneScience/mac-messages-codex-plugin",
+  "repository": "https://github.com/KeystoneScience/mac-messages-codex-plugin",
   "license": "MIT",
   "keywords": [
     "imessage",
@@ -19,7 +19,7 @@
   "skills": "./.agents/skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "Mac Message Codex Plugin",
+    "displayName": "Mac Messages Codex Plugin",
     "shortDescription": "Use local Messages.app",
     "longDescription": "Use local Messages.app data on this Mac to inspect recent chats, read and search iMessage/SMS history, check permissions, prepare send or tapback actions for review, and perform send/react operations only through explicit confirmation gates.",
     "developerName": "KeystoneScience",
@@ -29,15 +29,15 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://github.com/KeystoneScience/imsg/tree/codex-plugin",
-    "privacyPolicyURL": "https://github.com/KeystoneScience/imsg/blob/codex-plugin/README.md#permissions",
-    "termsOfServiceURL": "https://github.com/KeystoneScience/imsg/blob/codex-plugin/LICENSE",
+    "websiteURL": "https://github.com/KeystoneScience/mac-messages-codex-plugin",
+    "privacyPolicyURL": "https://github.com/KeystoneScience/mac-messages-codex-plugin/blob/main/README.md#permissions",
+    "termsOfServiceURL": "https://github.com/KeystoneScience/mac-messages-codex-plugin/blob/main/LICENSE",
     "defaultPrompt": [
       "Summarize everything I sent yesterday across Messages chats",
       "Search local iMessage/SMS history for a phrase or person",
       "Read the latest messages in a specific chat",
       "Prepare a Messages reply for review without sending",
-      "Check imsg permissions and explain what is missing"
+      "Check Mac Messages permissions and explain what is missing"
     ],
     "brandColor": "#34C759",
     "composerIcon": "./assets/icon.png",

@@ -3,14 +3,14 @@ name: mac-message
 description: Use for local Apple Messages archive reads, chat history, search, contact-resolved lookup, and explicitly requested sends.
 ---
 
-# Mac Message
+# Mac Messages
 
 Use this for Messages.app history, chat lookup, streaming, cross-chat sent-message reports, and sends. Reading is local DB access; sending uses Messages automation and must be explicitly requested. When the Codex plugin is installed, prefer the MCP tools first (`imsg_list_chats`, `imsg_read_messages`, `imsg_search_messages`, `imsg_sent_summary`, `imsg_prepare_send`, `imsg_send_message`, `imsg_prepare_reaction`, `imsg_send_reaction`) because they add bounded reads, bulk reporting, and write approval gates. For cross-chat questions like "what did I send yesterday", use `imsg_sent_summary` first; do not loop through chats unless the user asks to inspect specific conversations.
 
 ## Sources
 
 - DB: `~/Library/Messages/chat.db`
-- Repo: `~/Projects/imsg` or the installed plugin checkout
+- Repo: `~/Projects/mac-messages-codex-plugin` or the installed plugin checkout
 - CLI: `imsg`
 - JSON output is NDJSON; pipe to `jq -s` for arrays.
 - Codex plugin: `.codex-plugin/plugin.json` plus `.mcp.json` runs `scripts/run_mcp.sh`
